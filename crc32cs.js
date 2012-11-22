@@ -166,7 +166,7 @@ void function(global, callback) {
 				if (!_isBuffer(buffer))
 					throw new Error('First argument needs to be ArrayBuffer.');
 				var array = new Uint8Array(buffer);
-				return this.checksum = _updateUint8Array(this.checksum, array);
+				return this.checksum = _updateUint8Array(0, array);
 			});
 		}
 
