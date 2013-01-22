@@ -1,6 +1,6 @@
 {
 	"name": "crc32cs",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"main": "crc32cs.js",
 	"dependencies": {}
 }
